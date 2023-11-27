@@ -135,7 +135,7 @@ input[type="checkbox"]:checked + span{
     margin: 10px;
     animation: fadeIn 0.7s;
 
-}
+
 
 #done input[type="checkbox"]:checked + span::after {
 
@@ -151,6 +151,7 @@ input[type="checkbox"]:checked + span{
     animation: fadeIn 0.7s;
 
 }
+
 
 @keyframes fadeIn {
     from{opacity: 0;}
