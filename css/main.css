@@ -95,7 +95,7 @@ input[type="checkbox"] {
 
 
 input[type="checkbox"]:checked + span::after {
-    content: ;
+    
     border: 8px;
 
 }
