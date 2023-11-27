@@ -5,16 +5,24 @@
     padding: 0;
 }
 header {
-    background-color: black;
+    background-color:white;
     padding: 20px;
+    position: sticky;
+    
+    
+}
+
+html body {
+    height: 100%;
     
 }
 
 body {
     background-image: url(../images/hardwork1.png);
+    background-color: rgba(255, 255, 255, 0.178);
     background-repeat:  no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -31,9 +39,11 @@ main {
     flex-wrap: wrap;
 }
 
-header > h1 {
+header  h1 {
     text-align: center;
+    font-size: 50px;
     padding: 20px;
+    color: black;
 
 }
 
